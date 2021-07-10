@@ -1,6 +1,8 @@
 import React from 'react';
 import MyMenu from './MyDropdown';
+import ReadMore from './ReadMore';
 import '../styles/App.css';
+
 
 function Content() {
   return (
@@ -24,13 +26,16 @@ function Content() {
             My name is Andy Lucas,  I have a Technical Baccalaureate certificate in Electronics and I am currently a student at the Institut Supérieur Polytechnique de Madagascar (ISPM) 
              in the 3rd year of the Computer Science, Software Engineering and Artificial Intelligence programme (IGGLIA).
             </p>
-            <button class="flex justify-start my-8 px-7 py-2 text-md text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-700 focus:ring-offset-2">Read more</button>
+
+            <ReadMore/>
         </div>
         
       </div>
       
     </div>
   );
+  
 }
+
 
 export default Content;
