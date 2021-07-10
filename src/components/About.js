@@ -8,7 +8,7 @@ function Content() {
       <div className="Image col-span-1  bg-gray-800">
         <img className="h-full w-full object-cover rounded-lg shadow-2xl" src="/assets/me2.png" alt=""Andy_Lucas/>
       </div>
-      <div className=" col-span-2 ">
+      <div className=" col-span-2  ">
         <div className="Menu absolute ml-96 pl-64 pr-12 pb-44 h-20 w-20  ">
             <MyMenu/>
         </div>
