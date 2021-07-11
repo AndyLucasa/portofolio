@@ -1,5 +1,4 @@
-// src/Projects.js
- 
+
 import React from "react"
 import { FaGithub, FaFacebook, FaLinkedin, FaAngrycreative } from "react-icons/fa"
 
