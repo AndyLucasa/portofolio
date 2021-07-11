@@ -14,7 +14,8 @@ module.exports = {
         'poppins': ['"Poppins"', 'sans-serif'] ,
         'karla': ['"Karla"', 'sans-serif'],
         'rubik': ['"Rubik"', 'sans-serif']
-      }
+      },
+      
     },
   },
   variants: {
