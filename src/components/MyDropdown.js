@@ -7,7 +7,7 @@ import {CgWorkAlt} from "react-icons/cg"
   
 function MyMenu() {
     return(
-        <Menu as="div" className="bg-transparent h-11 w-11 ml-auto -mr-0">
+        <Menu as="div" data-aos="fade-left" data-aos-duration="2500" data-aos-delay="800" className="bg-transparent h-11 w-11 ml-auto -mr-0">
             {({ open }) => (
                 <>
                     <div>
