@@ -2,6 +2,7 @@ import React from 'react';
 import About from './About'
 import Contacts from './Contacts';
 import Projects from './Projetcs';
+import Works from './Works';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import '../styles/App.css';
@@ -18,6 +19,7 @@ function App() {
         <About></About>
       </div>
       <Projects></Projects>
+      <Works></Works>
     </div>
   );
 }
