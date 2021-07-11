@@ -1,10 +1,9 @@
 import { Fragment } from 'react'
 import { HiMenu,HiX} from "react-icons/hi"
 import { Menu, Transition } from '@headlessui/react'
+import {CgWorkAlt} from "react-icons/cg"
 
-function classNames(...classes) {
-    return classes.filter(Boolean).join(' ')
-  }
+
   
 function MyMenu() {
     return(
@@ -39,14 +38,17 @@ function MyMenu() {
                             <Menu.Item>
                                 {({ active }) => (
                                 <a
-                                    href="#work"
-                                    className={classNames(
-                                    active ? 'bg-gray-100' : '',
-                                    'block px-4 py-2 text-sm text-gray-700'
-                                    )}
-                                >
-                                    Works
-                                </a>
+                                href="#work"
+                                className={`${
+                                  active ? 'bg-indigo-500 text-white' : 'text-gray-900'
+                                } group flex rounded-md items-center w-full px-2 py-2 text-sm font-poppins`}
+                              >
+                                <CgWorkAlt
+                                    className="w-5 h-5 mr-2"
+                                    aria-hidden="true"
+                                  />
+                                Work
+                              </a>
                                 )}
                             </Menu.Item>
                             

@@ -17,7 +17,7 @@ class ReadMore  extends React.Component{
                 <div>
                     {this.state.isToggleOn ? (
                         <div>
-                            <button onClick={this.readClick} class="flex justify-start my-8 px-7 py-2 text-md text-purple-600 font-semibold rounded-full border border-purple-200 hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-700 focus:ring-offset-2">Read more</button>
+                            <button onClick={this.readClick} class="flex justify-start my-8 px-7 py-2 text-md text-purple-600 font-semibold rounded-full border-2 border-purple-800 shadow-lg hover:text-white hover:bg-purple-600 hover:border-transparent focus:outline-none focus:ring-2 focus:ring-purple-700 focus:ring-offset-2">Read more</button>
                         </div>
                         
                     ) : (

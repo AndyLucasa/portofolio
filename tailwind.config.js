@@ -13,7 +13,8 @@ module.exports = {
       fontFamily: {
         'poppins': ['"Poppins"', 'sans-serif'] ,
         'karla': ['"Karla"', 'sans-serif'],
-        'rubik': ['"Rubik"', 'sans-serif']
+        'rubik': ['"Rubik"', 'sans-serif'],
+        'righteous' : ["Righteous",'cursive']
       },
       
     },
