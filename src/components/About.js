@@ -1,20 +1,21 @@
 import React from 'react';
 import MyMenu from './MyDropdown';
 import ReadMore from './ReadMore';
+import me2 from './../assets/me2.png';
 import '../styles/App.css';
 
 
 function Content() {
   return (
-    <div className="About bg-transparent h-full grid grid-cols-3 z-10"> 
+    <div className="About bg-transparent pl-48 h-full grid grid-cols-3 z-10"> 
       <div className="Image col-span-1  ">
-        <img data-aos="fade-right" data-aos-duration="1600" className="animate-imagein h-full w-full object-cover rounded-lg shadow-2xl" src="/assets/me2.png" alt="Me"/>
+        <img data-aos="fade-right" data-aos-duration="1600" className="animate-imagein h-full w-11/12 object-cover rounded-lg shadow-2xl" src={me2} alt="Me"/>
       </div>
       <div className=" col-span-2  ">
         <div className="Menu absolute ml-96 pl-64 pr-12 pb-44 h-20 w-20  ">
             <MyMenu/>
         </div>
-        <div className="Text w-4/5 mx-16 mt-28">
+        <div className="Text w-4/5 mx-10 mt-28">
 
             <h1 data-aos="fade-left" data-aos-duration="600"className="text-left text-4xl font-extrabold font-karla text-gray-800">AMBININTSOA</h1>
 
