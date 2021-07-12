@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+<<<<<<< 
+
 # portofolio_reactjs
 =======
 # Getting Started with Create React App
