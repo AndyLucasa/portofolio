@@ -7,7 +7,7 @@ function Contacts(props) {
     <div className="h-full  pb-20 pt-8 mb-96 flex flex-col justify-between absolute p-4 ">
       <div className="Logo h-16 ">
         <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" className="text-left align-text-bottom text-3xl font-righteous text-gray-50">My</p>
-        <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900"className="text-left align-text-bottom text-3xl font-righteous text-gray-50">Porfolio</p>
+        <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900"className="text-left align-text-bottom text-3xl font-righteous text-gray-50">Portfolio</p>
       </div >
 
       <div className="space-y-4">
