@@ -44,10 +44,10 @@ function MyMenu() {
                                 } group flex rounded-md items-center w-full px-2 py-2 text-sm font-poppins`}
                               >
                                 <CgWorkAlt
-                                    className="w-5 h-5 mr-2"
+                                    className="w-5 h-5 ml-3 mr-2"
                                     aria-hidden="true"
                                   />
-                                Work
+                                My Work
                               </a>
                                 )}
                             </Menu.Item>

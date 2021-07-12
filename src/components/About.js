@@ -7,7 +7,7 @@ import '../styles/App.css';
 
 function Content() {
   return (
-    <div className="About bg-transparent pl-48 h-full grid grid-cols-3 z-10"> 
+    <div className="About bg-transparent py-8 pl-48 h-full grid grid-cols-3 z-10"> 
       <div className="Image col-span-1  ">
         <img data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000" className="animate-imagein h-full w-11/12 object-cover rounded-lg shadow-2xl" src={me2} alt="Me"/>
       </div>
@@ -25,7 +25,7 @@ function Content() {
 
             <p data-aos="zoom-in" data-aos-duration="1300" data-aos-delay="1900"className="text-left text-base font-light font-rubik tracking-tighter">
             My name is Andy Lucas,  I have a Technical Baccalaureate certificate in Electronics and I am currently a student at the Institut Supérieur Polytechnique de Madagascar (ISPM) 
-             in the 3rd year of the Computer Science, Software Engineering and Artificial Intelligence programme (IGGLIA).
+             in the 3rd year of the Business Administration, Software Engineering and Artificial Intelligence programme (IGGLIA).
             </p>
 
             <ReadMore />

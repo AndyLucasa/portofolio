@@ -4,7 +4,7 @@ import { FaGithub, FaFacebook, FaLinkedin } from "react-icons/fa"
 
 function Contacts(props) {
   return (
-    <div className="h-full pb-20 flex flex-col justify-between absolute p-4 ">
+    <div className="h-full  pb-20 pt-8 mb-96 flex flex-col justify-between absolute p-4 ">
       <div className="Logo h-16 ">
         <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="500" className="text-left align-text-bottom text-3xl font-righteous text-gray-50">My</p>
         <p data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="900"className="text-left align-text-bottom text-3xl font-righteous text-gray-50">Porfolio</p>
@@ -22,7 +22,7 @@ function Contacts(props) {
           </div>
 
         <div className="Find">
-          <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1800" className="text-left text-sm font-base font-poppins text-gray-50">Find me on</h1>
+          <h1 data-aos="fade-right" data-aos-duration="1200" data-aos-delay="1800" className="text-left text-sm font-base font-poppins text-gray-50">Find me on</h1>
           <div className="Contacts flex flex-col ">
             <div className="flex items-center space-x-4 ">
               <a href="https://github.com/AndyLucasa" >

@@ -6,7 +6,7 @@ import Works from './Works';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import '../styles/App.css';
-
+//NON RESPONSIVE
 AOS.init();
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
       <div className=" py-8 pl-6 pr-28 h-screen col-span-2 bg-purple-700">
       </div>
       <div className="col-span-5 "></div>
-      <div className="absolute w-full h-screen py-8  pr-10 ">
+      <div className="absolute w-full h-screen pr-10 ">
         <Contacts></Contacts>
 
         <About ></About>
